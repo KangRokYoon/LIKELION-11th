@@ -1,0 +1,50 @@
+#h1 {
+    margin-top: 300px; 
+}
+.container {
+    font-family: 'Black Han Sans', sans-serif;
+    background-color: #E3FDFD;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}   
+.question {
+    display: none;
+    text-align: center;
+    margin-top: 300px;
+    color: #00ADB5 ;
+    
+}
+
+.result {
+    display: none;
+    color: #00ADB5 ;
+    text-align: center;
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+}
+
+#h1 {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+

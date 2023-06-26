@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI 테스트</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="container"> 
+    <!-- <div class="text">mbti</div> -->
+    <article class="start">
+        <h1 id="h1" style="color: #00ADB5 ;">MBTI별 연애특징</h1>
+        <button type="button" class="btn btn-outline-ligh mt-5 display-3 btn-xs" onclick="start();">테스트 시작하기</button>
+    </article> 
+    
+    <article class="question">
+        <digitv class="progress mt-5" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+             <div class="progress-bar bg-info text-dark" style="width: calc(100/12*1%)"></div>
+          </digitv> 
+        <h2 id="title" class=" text-center mt-5 display-5">문제</h2>
+        <input id="type" type="hidden" value="EI">
+
+        <button id ="A" type="button" class="btn btn-outline-ligh mt-5 ">Primary</button>
+        <button id ="B" type="button" class="btn btn-outline-ligh mt-5 ">Primary</button>
+    </article>
+    <article class="result">
+        <img id ="img" class="rounded mt-5" src="img.jpg"  alt="ERROR">
+        <h2 id = "goal" class="text-center mt-5">동물이름</h2>
+        <h3 id = "explain" class="text-center mt-5">설명</h3>
+    </article>
+
+    <input type="hidden" id="EI" value="0">
+    <input type="hidden" id="SN" value="0">
+    <input type="hidden" id="TF" value="0">
+    <input type="hidden" id="JP" value="0">
+     
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/variables.js"></script>
+    <script>
+    </script>
+</body>
+</html>
